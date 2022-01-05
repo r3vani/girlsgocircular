@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <title>Girls Go Circular</title>
+   
+   <!-- swiper lib -->
+   <link rel="stylesheet" href="./css/css-swiper-lib.css">
+   <link rel="stylesheet" href="./css/css-normalize-min-lib.css">
+
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+
+         <!-- first slider component -->
+         <div class="blog-slider__item swiper-slide">
+
+            <div class="blog-slider__img">
+               <img src="./pictures/good images individuals/23.jpg" alt="">
+            </div>
+
+            <div class="blog-slider__content">
+               <span class="blog-slider__code">Girls Go Circular</span>
+               <div class="blog-slider__title">Šesta beogradska gimnazija</div>
+               <div class="blog-slider__text">U ovogodišnjoj manifestaciji Novembarski dani Sonje Žarkovic, 
+			   naša škola se odazvala pozivu Dostignuca mladih u Srbiji za ucešce u programu Girls Go Circular 
+			   Evropskog instituta za inovacije i tehnologije. Šesta beogradska gimnazija je u ovom programu 
+			   ucestvovala zajedno sa drugim školama iz Srbije, a i sa školama iz Bugarske, 
+			   Grcke, Madarske, Italije, Poljske, Portugalije i Rumunije. </div>
+                <a href="https://www.ja-serbia.org/girls-go-circular-da-li-ste-spremni-za-projekat-godine/" class="blog-slider__button">O programu</a> 
+            </div>
+
+         </div>
+
+         <!-- second slider component -->
+         <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+               <img src="./pictures/good images individuals/9.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+               <span class="blog-slider__code">Girls Go Circular</span>
+               <div class="blog-slider__title">Šesta beogradska gimnazija</div>
+               <div class="blog-slider__text">Module koji su ponudeni u projektu ucenice su mogle da 
+			   realizuju na srpskom i engleskom jeziku. Tako su imale priliku da komuniciraju sa ucenicama iz zemalja ucesnica.
+               U programu su ucestvovale ucenice od prvog do cetvrtog razreda
+               uz koordinaciju predmetnih nastavnika Sandre Trpkovic,
+               Suzane Lazovic, Bojane Antanasijevic, Jasminke Bašic, 
+               Nataše Ðuric Lazovic, Ivane Vukmirice,
+               Snežane Petrunovic i Gordane Ceranic.</div>
+            </div>
+         </div>
+
+         <!-- third slider component -->
+         <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+               <img src="./pictures/good images individuals/4.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+               <span class="blog-slider__code">Girls Go Circular</span>
+               <div class="blog-slider__title">Šesta beogradska gimnazija</div>
+               <div class="blog-slider__text">Cilj ovog programa je da osnaži ucenice u oblasti STEM disciplina (nauka, tehnologija, inženjerstvo i matematika).
+                Kroz ovaj program ucenicama su približene teme iz oblasti cirkularne ekonomije i omoguceno im je da kroz onlajn module razviju
+                preduzetnicke i digitalne veštine i prošire svoja interesovanja u razlicitim oblastima. 
+				</div>
+				 
+            </div>
+         </div>
+		  <!-- fouth slider component -->
+         <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+               <img src="./pictures/good images whole class/8.jpg" alt="">
+            </div>
+            <div class="blog-slider__content">
+               <span class="blog-slider__code">Girls Go Circular</span>
+               <div class="blog-slider__title">Šesta beogradska gimnazija</div>
+               <div class="blog-slider__text">Organizovali smo prezentaciju radova naših ucenica i uverili se koliko su naucile o Metalima i cirkularnoj ekonomiji; Modi i cirkularnoj ekonomiji; 
+				Preispitivanju plastike; Cirkularnoj ekonomiji za pametne telefone i elektronske uredaje; Robotici i cirkularnoj ekonomiji; 
+				Elektronskom otpadu i cirkularnoj ekonomiji; Cirkularnoj ekonomiji hrane u gradovima; Borbi protiv klimatskih promena putem cirkularne potrošnje.
+				
+			   </div>
+			    <a href="./videos/video3.mp4" class="blog-slider__button">Sa prezentacije</a>
+            </div>
+         </div>
+
+      </div>
+	  
+
+      <div class="blog-slider__pagination"></div>
+   </div>
+
+   <!-- lib -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+
+   <!-- script swiper -->
+   <script src="./swiper.js"></script>
+</body>
+
+</html>
